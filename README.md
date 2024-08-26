@@ -1,5 +1,11 @@
 # W10D6
 > Day 6 of Docker
 
-## Docker Compose
-> temp
+---
+
+하나의 웹 프로그램의 경우 컨테이너들의 포트번호가 8080(SpringBoot), 3306(MySQL), 3000(NextJS) 등 여러 포트번호가 나오게 된다. <br>
+허나, NextJS는 스크립트 기반이어서 이를 nginx에 연결해주어 배포를 하는데. <br>
+이것이 바로 url(도메인형식)에 ":3000"과 같은 포트번호가 붙지않는 이유다. <br>
+
+---
+
